@@ -1,1 +1,1399 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="776" height="1016"><defs/><g transform=" scale(0.27) translate(-27.150000000000034,-145.435)"><rect x="1900" y="640" width="240" height="720" fill="#efd3d2" stroke="#000000" stroke-width="2" pointer-events="none"/><rect x="1920" y="600" width="192" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="2016" y="621">LoLin NodeMCU v3</text></g><rect x="1858" y="718" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1862 720 L 1898 720" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="1904" y="727.5">3V</text></g><rect x="1858" y="778" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1862 780 L 1898 780" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="1904" y="787.5">GND</text></g><rect x="1858" y="858" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1862 860 L 1898 860" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="1904" y="867.5">D1</text></g><rect x="1858" y="918" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1862 920 L 1898 920" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="1904" y="927.5">D2</text></g><rect x="2178" y="718" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2142 720 L 2178 720" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="2135" y="727.5">3V</text></g><rect x="2178" y="778" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2142 780 L 2178 780" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="2135" y="787.5">GND</text></g><rect x="2178" y="858" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2142 860 L 2178 860" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="2135" y="867.5">D5</text></g><rect x="2178" y="918" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2142 920 L 2178 920" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="2135" y="927.5">D6</text></g><rect x="2178" y="978" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2142 980 L 2178 980" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="2135" y="987.5">D7</text></g><rect x="2178" y="1038" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2142 1040 L 2178 1040" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="2135" y="1047.5">D8</text></g><rect x="1858" y="1098" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1862 1100 L 1898 1100" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="1904" y="1107.5">D0</text></g><rect x="1500" y="640" width="240" height="340" fill="#efd3d2" stroke="#000000" stroke-width="2" pointer-events="none"/><rect x="1520" y="600" width="134" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1587" y="621">ublox neo-6m</text></g><rect x="1778" y="718" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1742 720 L 1778 720" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="1735" y="727.5">VCC</text></g><rect x="1778" y="778" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1742 780 L 1778 780" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="1735" y="787.5">GND</text></g><rect x="1778" y="858" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1742 860 L 1778 860" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="1735" y="867.5">TX</text></g><rect x="1778" y="918" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 1742 920 L 1778 920" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="1735" y="927.5">RX</text></g><path d="M 1780 720 L 1860 720" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1780 780 L 1860 780" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1780 860 L 1860 860" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 1780 920 L 1860 920" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><rect x="2360" y="640" width="240" height="460" fill="#efd3d2" stroke="#000000" stroke-width="2" pointer-events="none"/><rect x="2380" y="600" width="80" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="2420" y="621">SD card</text></g><rect x="2318" y="718" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2322 720 L 2358 720" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="2364" y="727.5">VCC</text></g><rect x="2318" y="778" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2322 780 L 2358 780" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="2364" y="787.5">GND</text></g><rect x="2318" y="858" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2322 860 L 2358 860" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="2364" y="867.5">SCLK</text></g><rect x="2318" y="918" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2322 920 L 2358 920" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="2364" y="927.5">DO</text></g><rect x="2318" y="978" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2322 980 L 2358 980" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="2364" y="987.5">DI</text></g><rect x="2318" y="1038" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 2322 1040 L 2358 1040" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="2364" y="1047.5">CS</text></g><path d="M 2180 720 L 2320 720" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 2180 780 L 2320 780" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 2180 860 L 2320 860" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 2180 920 L 2320 920" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 2180 980 L 2320 980" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 2180 1040 L 2320 1040" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><rect x="1158" y="1038" width="4" height="4" fill="#000000" stroke="none" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><rect x="1158" y="958" width="4" height="4" fill="#000000" stroke="none" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><rect x="1418" y="998" width="4" height="4" fill="#000000" stroke="none" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><path d="M 1200.15 1100 L 1200.15 900 L 1380.15 1000 Z" fill="#ffffff" stroke="#000000" stroke-width="4" stroke-miterlimit="10" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><path d="M 1161.85 1040 L 1197.85 1040" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><path d="M 1162.15 960 L 1198.15 960" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><path d="M 1380.15 1000 L 1418.15 1000" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><path d="M 1216.09 1040 L 1231.78 1040" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><path d="M 1216.09 960 L 1231.78 960" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><path d="M 1223.94 952.16 L 1223.94 967.84" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(0,1010)scale(1,-1)translate(0,-1010)" pointer-events="none"/><rect x="1132" y="1092" width="30" height="28" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="1147" y="1114">U4</text></g><path d="M 1420 1020 L 1860 1020 L 1860 1100" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><rect x="820" y="760" width="120" height="120" fill="#efd3d2" stroke="#000000" stroke-width="2" pointer-events="none"/><rect x="820" y="734" width="108" height="26" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="874" y="755">12v to 3.3v</text></g><rect x="778" y="818" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 782 820 L 818 820" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" font-size="24px"><text x="824" y="827.5">IN</text></g><rect x="978" y="818" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 942 820 L 978 820" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="end" font-size="24px"><text x="935" y="827.5">OUT</text></g><rect x="878" y="918" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 880 882 L 880 918" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="879.5" y="869">GND</text></g><rect x="438" y="858" width="4" height="4" fill="#000000" stroke="none" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><rect x="438" y="898" width="4" height="4" fill="#000000" stroke="none" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 469.62 843.34 L 469.62 874.08 L 469.62 876.28 L 469.62 887.72 L 510.06 887.72 L 510.06 876.28 L 510.12 876.28 L 510.12 869.52 L 506 869.52 L 506 849.96 L 510.12 849.96 L 510.12 843.34 L 506 843.34 L 503.38 843.34 L 469.62 843.34 Z" fill="#ffffff" stroke="none" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 469.54 883.8 L 469.54 916.74 L 503.54 916.74 L 505.92 916.74 L 510.04 916.74 L 510.04 910 L 505.92 910 L 505.92 890.44 L 510.04 890.44 L 510.04 883.8 L 505.92 883.8 L 503.3 883.8 L 469.54 883.8 Z" fill="#ffffff" stroke="none" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 442 860 L 468 860" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="18px" transform="translate(480,0)scale(-1,1)translate(-480,0)"><text x="457.12" y="850.6">1</text></g><ellipse cx="490" cy="860" rx="10" ry="10" fill="none" stroke="#000000" stroke-width="4" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 470 876 L 470 844 L 510 844 L 510 849.46 L 510 845.84" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 506 850 L 506 870" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 493.28 854.6 L 484.32 863.42 L 486.56 865.62 L 495.54 856.8 Z" fill="none" stroke="#000000" stroke-width="1.78" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 489.86 850.22 C 490 850 510 850 510 850" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 489.86 870.22 C 490 870 510 870 510 870" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 442 900 L 468 900" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" text-anchor="middle" font-size="18px" transform="translate(480,0)scale(-1,1)translate(-480,0)"><text x="457.12" y="890.6">2</text></g><ellipse cx="490" cy="900" rx="10" ry="10" fill="none" stroke="#000000" stroke-width="4" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 506 890 L 506 910" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 493.28 894.6 L 484.32 903.42 L 486.56 905.62 L 495.54 896.8 Z" fill="none" stroke="#000000" stroke-width="1.78" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 489.86 890.22 C 490 890 510 890 510 890" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 489.86 910.22 C 490 910 510 910 510 910" fill="none" stroke="#000000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 470 874 L 470 916 L 510 916 L 510 910.56 L 510 914.16" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><path d="M 510.06 889.56 L 510 870.44" fill="none" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" transform="translate(480,0)scale(-1,1)translate(-480,0)" pointer-events="none"/><rect x="440" y="800" width="44" height="28" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="462" y="822">ST1</text></g><path d="M 520 860 L 660 860 L 660 820 L 780 820" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 520 900 L 520 1200 L 880 1200 L 880 920" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 980 820 L 1100 820 L 1100 980 L 1160 980" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><rect x="658" y="998" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><rect x="658" y="1118" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><rect x="718" y="1058" width="4" height="4" fill="#000000" stroke="none" pointer-events="none"/><path d="M 660 1002 L 660 1022" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><path d="M 660 1098 L 660 1118" fill="#000000" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><path d="M 646 1024 C 672.78 1023.64 674 1024 674 1024 L 674 1096 L 646 1096 Z" fill="#ffffff" stroke="#000000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="10" pointer-events="none"/><path d="M 690 1060 L 718 1060" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><path d="M 693.54 1065.38 C 693.22 1065.28 688.9 1064.04 683.98 1062.64 C 679.04 1061.22 675 1060.06 675 1060.02 C 675 1060 679.06 1058.86 684 1057.5 C 688.94 1056.14 693.26 1054.96 693.6 1054.86 L 694.22 1054.7 L 694.18 1060.12 L 694.16 1065.54 L 693.54 1065.38 Z" fill="#000000" stroke="#000000" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="square" stroke-miterlimit="10" pointer-events="none"/><rect x="612" y="1000" width="30" height="28" fill-opacity="0" fill="#dae2f2" stroke="none" pointer-events="none"/><g fill="#000000" font-family="Arial,Helvetica" font-weight="bold" text-anchor="middle" font-size="24px"><text x="627" y="1022">R1</text></g><path d="M 660 1000 L 660 864" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><ellipse cx="660" cy="860" rx="4" ry="4" fill="#000000" stroke="#000000" stroke-width="4" pointer-events="none"/><path d="M 660 1120 L 660 1200 L 660 1196" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><ellipse cx="660" cy="1200" rx="4" ry="4" fill="#000000" stroke="#000000" stroke-width="4" pointer-events="none"/><path d="M 720 1060 L 1160 1060" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><path d="M 980 820 L 980 560 L 1800 560 L 1800 716" fill="none" stroke="#000000" stroke-width="4" stroke-miterlimit="10" pointer-events="none"/><ellipse cx="1800" cy="720" rx="4" ry="4" fill="#000000" stroke="#000000" stroke-width="4" pointer-events="none"/><rect x="80" y="840" width="340" height="80" fill="transparent" stroke="transparent" stroke-width="2" pointer-events="none"/><g transform="translate(85,855)scale(2)"><foreignObject style="overflow:visible;" pointer-events="all" width="165" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 30px; max-width: 165px; width: 164.5px; white-space: normal; word-wrap: normal;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><p style="margin: 0px"><span style="font-size: 12px ; line-height: 1.2">Connected to permanent 12V power in the car</span><br /></p></div></div></foreignObject></g><rect x="520" y="1220" width="340" height="80" fill="transparent" stroke="transparent" stroke-width="2" pointer-events="none"/><g transform="translate(525,1235)scale(2)"><foreignObject style="overflow:visible;" pointer-events="all" width="165" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 30px; max-width: 165px; width: 164.5px; white-space: normal; word-wrap: normal;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><p style="margin: 0px"><span style="font-size: 12px ; line-height: 1.2">R1 adjusted so output is 3.3V at 12V</span><br /></p></div></div></foreignObject></g><rect x="1380" y="1040" width="400" height="120" fill="transparent" stroke="transparent" stroke-width="2" pointer-events="none"/><g transform="translate(1385,1055)scale(2)"><foreignObject style="overflow:visible;" pointer-events="all" width="195" height="26"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 50px; max-width: 195px; width: 194.5px; white-space: normal; word-wrap: normal;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;"><p style="margin: 0px">Opamp output high if the battery voltage is higher than 12V</p></div></div></foreignObject></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="680.66998"
+   height="216.81"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="schematic.svg">
+  <metadata
+     id="metadata394">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1378"
+     id="namedview392"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.92913386"
+     inkscape:cx="509.81277"
+     inkscape:cy="-139.51066"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4" />
+  <g
+     transform="matrix(0.27,0,0,0.27,-21.6,-150.66)"
+     id="g6">
+    <rect
+       x="1900"
+       y="640"
+       width="240"
+       height="720"
+       pointer-events="none"
+       id="rect8"
+       style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
+    <rect
+       x="1920"
+       y="600"
+       width="192"
+       height="26"
+       pointer-events="none"
+       id="rect10"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g12"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2016"
+         y="621"
+         id="text14">LoLin NodeMCU v3</text>
+    </g>
+    <rect
+       x="1858"
+       y="718"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect16"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1862,720 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path18"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g20"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1904"
+         y="727.5"
+         id="text22">3V</text>
+    </g>
+    <rect
+       x="1858"
+       y="778"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect24"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1862,780 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path26"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g28"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1904"
+         y="787.5"
+         id="text30">GND</text>
+    </g>
+    <rect
+       x="1858"
+       y="858"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect32"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1862,860 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path34"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g36"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1904"
+         y="867.5"
+         id="text38">D1</text>
+    </g>
+    <rect
+       x="1858"
+       y="918"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect40"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1862,920 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path42"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g44"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1904"
+         y="927.5"
+         id="text46">D2</text>
+    </g>
+    <rect
+       x="2178"
+       y="718"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect48"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2142,720 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path50"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g52"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2135"
+         y="727.5"
+         id="text54">3V</text>
+    </g>
+    <rect
+       x="2178"
+       y="778"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect56"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2142,780 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path58"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g60"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2135"
+         y="787.5"
+         id="text62">GND</text>
+    </g>
+    <rect
+       x="2178"
+       y="858"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect64"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2142,860 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path66"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g68"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2135"
+         y="867.5"
+         id="text70">D5</text>
+    </g>
+    <rect
+       x="2178"
+       y="918"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect72"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2142,920 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path74"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g76"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2135"
+         y="927.5"
+         id="text78">D6</text>
+    </g>
+    <rect
+       x="2178"
+       y="978"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect80"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2142,980 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path82"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g84"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2135"
+         y="987.5"
+         id="text86">D7</text>
+    </g>
+    <rect
+       x="2178"
+       y="1038"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect88"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2142,1040 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path90"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g92"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2135"
+         y="1047.5"
+         id="text94">D8</text>
+    </g>
+    <rect
+       x="1858"
+       y="1098"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect96"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1862,1100 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path98"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g100"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1904"
+         y="1107.5"
+         id="text102">D0</text>
+    </g>
+    <rect
+       x="1500"
+       y="640"
+       width="240"
+       height="340"
+       pointer-events="none"
+       id="rect104"
+       style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
+    <rect
+       x="1520"
+       y="600"
+       width="134"
+       height="26"
+       pointer-events="none"
+       id="rect106"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g108"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1587"
+         y="621"
+         id="text110">ublox neo-6m</text>
+    </g>
+    <rect
+       x="1778"
+       y="718"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect112"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1742,720 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path114"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g116"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1735"
+         y="727.5"
+         id="text118">VCC</text>
+    </g>
+    <rect
+       x="1778"
+       y="778"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect120"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1742,780 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path122"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g124"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1735"
+         y="787.5"
+         id="text126">GND</text>
+    </g>
+    <rect
+       x="1778"
+       y="858"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect128"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1742,860 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path130"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g132"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1735"
+         y="867.5"
+         id="text134">TX</text>
+    </g>
+    <rect
+       x="1778"
+       y="918"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect136"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1742,920 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path138"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g140"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1735"
+         y="927.5"
+         id="text142">RX</text>
+    </g>
+    <path
+       d="m 1780,720 80,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path144"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 1780,780 80,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path146"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 1780,860 80,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path148"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 1780,920 80,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path150"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <rect
+       x="2360"
+       y="640"
+       width="240"
+       height="460"
+       pointer-events="none"
+       id="rect152"
+       style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
+    <rect
+       x="2380"
+       y="600"
+       width="80"
+       height="26"
+       pointer-events="none"
+       id="rect154"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g156"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2420"
+         y="621"
+         id="text158">SD card</text>
+    </g>
+    <rect
+       x="2318"
+       y="718"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect160"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2322,720 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path162"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g164"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2364"
+         y="727.5"
+         id="text166">VCC</text>
+    </g>
+    <rect
+       x="2318"
+       y="778"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect168"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2322,780 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path170"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g172"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2364"
+         y="787.5"
+         id="text174">GND</text>
+    </g>
+    <rect
+       x="2318"
+       y="858"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect176"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2322,860 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path178"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g180"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2364"
+         y="867.5"
+         id="text182">SCLK</text>
+    </g>
+    <rect
+       x="2318"
+       y="918"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect184"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2322,920 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path186"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g188"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2364"
+         y="927.5"
+         id="text190">DO</text>
+    </g>
+    <rect
+       x="2318"
+       y="978"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect192"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2322,980 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path194"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g196"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2364"
+         y="987.5"
+         id="text198">DI</text>
+    </g>
+    <rect
+       x="2318"
+       y="1038"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect200"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 2322,1040 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path202"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g204"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="2364"
+         y="1047.5"
+         id="text206">CS</text>
+    </g>
+    <path
+       d="m 2180,720 140,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path208"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 2180,780 140,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path210"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 2180,860 140,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path212"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 2180,920 140,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path214"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 2180,980 140,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path216"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 2180,1040 140,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path218"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <rect
+       x="1158"
+       y="1038"
+       width="4"
+       height="4"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="rect220"
+       style="fill:#000000;stroke:none" />
+    <rect
+       x="1158"
+       y="958"
+       width="4"
+       height="4"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="rect222"
+       style="fill:#000000;stroke:none" />
+    <rect
+       x="1418"
+       y="998"
+       width="4"
+       height="4"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="rect224"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 1200.15,1100 0,-200 180,100 z"
+       stroke-miterlimit="10"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="path226"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 1161.85,1040 36,0"
+       stroke-miterlimit="10"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="path228"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 1162.15,960 36,0"
+       stroke-miterlimit="10"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="path230"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 1380.15,1000 38,0"
+       stroke-miterlimit="10"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="path232"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 1216.09,1040 15.69,0"
+       stroke-miterlimit="10"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="path234"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 1216.09,960 15.69,0"
+       stroke-miterlimit="10"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="path236"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 1223.94,952.16 0,15.68"
+       stroke-miterlimit="10"
+       transform="matrix(1,0,0,-1,0,2020)"
+       pointer-events="none"
+       id="path238"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <rect
+       x="1132"
+       y="1092"
+       width="30"
+       height="28"
+       pointer-events="none"
+       id="rect240"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g242"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="1147"
+         y="1114"
+         id="text244">U4</text>
+    </g>
+    <path
+       d="m 1420,1020 440,0 0,80"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path246"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <rect
+       x="820"
+       y="760"
+       width="120"
+       height="120"
+       pointer-events="none"
+       id="rect248"
+       style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
+    <rect
+       x="820"
+       y="734"
+       width="108"
+       height="26"
+       pointer-events="none"
+       id="rect250"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g252"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="874"
+         y="755"
+         id="text254">12v to 3.3v</text>
+    </g>
+    <rect
+       x="778"
+       y="818"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect256"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 782,820 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path258"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g260"
+       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="824"
+         y="827.5"
+         id="text262">IN</text>
+    </g>
+    <rect
+       x="978"
+       y="818"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect264"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 942,820 36,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path266"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g268"
+       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="935"
+         y="827.5"
+         id="text270">OUT</text>
+    </g>
+    <rect
+       x="878"
+       y="918"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect272"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 880,882 0,36"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path274"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g276"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="879.5"
+         y="869"
+         id="text278">GND</text>
+    </g>
+    <rect
+       x="438"
+       y="858"
+       width="4"
+       height="4"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="rect280"
+       style="fill:#000000;stroke:none" />
+    <rect
+       x="438"
+       y="898"
+       width="4"
+       height="4"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="rect282"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 469.62,843.34 0,30.74 0,2.2 0,11.44 40.44,0 0,-11.44 0.06,0 0,-6.76 -4.12,0 0,-19.56 4.12,0 0,-6.62 -4.12,0 -2.62,0 -33.76,0 z"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path284"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:none" />
+    <path
+       d="m 469.54,883.8 0,32.94 34,0 2.38,0 4.12,0 0,-6.74 -4.12,0 0,-19.56 4.12,0 0,-6.64 -4.12,0 -2.62,0 -33.76,0 z"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path286"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:none" />
+    <path
+       d="m 442,860 26,0"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path288"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-size="18px"
+       transform="matrix(-1,0,0,1,960,0)"
+       id="g290"
+       style="font-size:18px;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="457.12"
+         y="850.59998"
+         id="text292">1</text>
+    </g>
+    <ellipse
+       cx="490"
+       cy="860"
+       rx="10"
+       ry="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="ellipse294"
+       d="m 500,860 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       sodipodi:cx="490"
+       sodipodi:cy="860"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       style="fill:none;stroke:#000000;stroke-width:4" />
+    <path
+       d="m 470,876 0,-32 40,0 0,5.46 0,-3.62"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path296"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       d="m 506,850 0,20"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path298"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="m 493.28,854.6 -8.96,8.82 2.24,2.2 8.98,-8.82 z"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path300"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.77999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       d="M 489.86,850.22 C 490,850 510,850 510,850"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path302"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="M 489.86,870.22 C 490,870 510,870 510,870"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path304"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="m 442,900 26,0"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path306"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <g
+       font-size="18px"
+       transform="matrix(-1,0,0,1,960,0)"
+       id="g308"
+       style="font-size:18px;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="457.12"
+         y="890.59998"
+         id="text310">2</text>
+    </g>
+    <ellipse
+       cx="490"
+       cy="900"
+       rx="10"
+       ry="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="ellipse312"
+       d="m 500,900 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
+       sodipodi:cx="490"
+       sodipodi:cy="900"
+       sodipodi:rx="10"
+       sodipodi:ry="10"
+       style="fill:none;stroke:#000000;stroke-width:4" />
+    <path
+       d="m 506,890 0,20"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path314"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="m 493.28,894.6 -8.96,8.82 2.24,2.2 8.98,-8.82 z"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path316"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:1.77999997;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       d="M 489.86,890.22 C 490,890 510,890 510,890"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path318"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="M 489.86,910.22 C 490,910 510,910 510,910"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path320"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="m 470,874 0,42 40,0 0,-5.44 0,3.6"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path322"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       d="M 510.06,889.56 510,870.44"
+       stroke-miterlimit="10"
+       transform="matrix(-1,0,0,1,960,0)"
+       pointer-events="none"
+       id="path324"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+    <rect
+       x="440"
+       y="800"
+       width="44"
+       height="28"
+       pointer-events="none"
+       id="rect326"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g328"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="462"
+         y="822"
+         id="text330">ST1</text>
+    </g>
+    <path
+       d="m 520,860 140,0 0,-40 120,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path332"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 520,900 0,300 360,0 0,-280"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path334"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 980,820 120,0 0,160 60,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path336"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <rect
+       x="658"
+       y="998"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect338"
+       style="fill:#000000;stroke:none" />
+    <rect
+       x="658"
+       y="1118"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect340"
+       style="fill:#000000;stroke:none" />
+    <rect
+       x="718"
+       y="1058"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect342"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 660,1002 0,20"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path344"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 660,1098 0,20"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path346"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 646,1024 c 26.78,-0.36 28,0 28,0 l 0,72 -28,0 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path348"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+    <path
+       d="m 690,1060 28,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path350"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 693.54,1065.38 c -0.32,-0.1 -4.64,-1.34 -9.56,-2.74 -4.94,-1.42 -8.98,-2.58 -8.98,-2.62 0,-0.02 4.06,-1.16 9,-2.52 4.94,-1.36 9.26,-2.54 9.6,-2.64 l 0.62,-0.16 -0.04,5.42 -0.02,5.42 -0.62,-0.16 z"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path352"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:1.79999995;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:10" />
+    <rect
+       x="612"
+       y="1000"
+       width="30"
+       height="28"
+       pointer-events="none"
+       id="rect354"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g356"
+       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+      <text
+         x="627"
+         y="1022"
+         id="text358">R1</text>
+    </g>
+    <path
+       d="m 660,1000 0,-136"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path360"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <ellipse
+       cx="660"
+       cy="860"
+       rx="4"
+       ry="4"
+       pointer-events="none"
+       id="ellipse362"
+       d="m 664,860 c 0,2.20914 -1.79086,4 -4,4 -2.20914,0 -4,-1.79086 -4,-4 0,-2.20914 1.79086,-4 4,-4 2.20914,0 4,1.79086 4,4 z"
+       sodipodi:cx="660"
+       sodipodi:cy="860"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       style="fill:#000000;stroke:#000000;stroke-width:4" />
+    <path
+       d="m 660,1120 0,80 0,-4"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path364"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <ellipse
+       cx="660"
+       cy="1200"
+       rx="4"
+       ry="4"
+       pointer-events="none"
+       id="ellipse366"
+       d="m 664,1200 c 0,2.2091 -1.79086,4 -4,4 -2.20914,0 -4,-1.7909 -4,-4 0,-2.2091 1.79086,-4 4,-4 2.20914,0 4,1.7909 4,4 z"
+       sodipodi:cx="660"
+       sodipodi:cy="1200"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       style="fill:#000000;stroke:#000000;stroke-width:4" />
+    <path
+       d="m 720,1060 440,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path368"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 980,820 0,-260 820,0 0,156"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path370"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <ellipse
+       cx="1800"
+       cy="720"
+       rx="4"
+       ry="4"
+       pointer-events="none"
+       id="ellipse372"
+       d="m 1804,720 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
+       sodipodi:cx="1800"
+       sodipodi:cy="720"
+       sodipodi:rx="4"
+       sodipodi:ry="4"
+       style="fill:#000000;stroke:#000000;stroke-width:4" />
+    <rect
+       x="80"
+       y="840"
+       width="340"
+       height="80"
+       fill="transparent"
+       stroke="transparent"
+       pointer-events="none"
+       id="rect374"
+       style="stroke-width:2" />
+    <g
+       transform="matrix(2,0,0,2,85,855)"
+       id="g376">
+      <foreignObject
+         pointer-events="all"
+         width="165"
+         height="26"
+         id="foreignObject378">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 30px; max-width: 165px; width: 164.5px; white-space: normal; word-wrap: normal;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:p
+               style="margin: 0px">
+              <xhtml:span
+                 style="font-size: 12px ; line-height: 1.2">Connected to permanent 12V power in the car</xhtml:span>
+              <xhtml:br />
+            </xhtml:p>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </g>
+    <rect
+       x="520"
+       y="1220"
+       width="340"
+       height="80"
+       fill="transparent"
+       stroke="transparent"
+       pointer-events="none"
+       id="rect380"
+       style="stroke-width:2" />
+    <g
+       transform="matrix(2,0,0,2,525,1235)"
+       id="g382">
+      <foreignObject
+         pointer-events="all"
+         width="165"
+         height="26"
+         id="foreignObject384">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 30px; max-width: 165px; width: 164.5px; white-space: normal; word-wrap: normal;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:p
+               style="margin: 0px">
+              <xhtml:span
+                 style="font-size: 12px ; line-height: 1.2">R1 adjusted so output is 3.3V at 12V</xhtml:span>
+              <xhtml:br />
+            </xhtml:p>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </g>
+    <rect
+       x="1380"
+       y="1040"
+       width="400"
+       height="120"
+       fill="transparent"
+       stroke="transparent"
+       pointer-events="none"
+       id="rect386"
+       style="stroke-width:2" />
+    <g
+       transform="matrix(2,0,0,2,1385,1055)"
+       id="g388">
+      <foreignObject
+         pointer-events="all"
+         width="195"
+         height="26"
+         id="foreignObject390">
+        <xhtml:div
+           style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 50px; max-width: 195px; width: 194.5px; white-space: normal; word-wrap: normal;">
+          <xhtml:div
+             style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+            <xhtml:p
+               style="margin: 0px">Opamp output high if the battery voltage is higher than 12V</xhtml:p>
+          </xhtml:div>
+        </xhtml:div>
+      </foreignObject>
+    </g>
+  </g>
+</svg>
