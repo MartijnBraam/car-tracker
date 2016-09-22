@@ -9,19 +9,20 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="680.66998"
-   height="216.81"
+   width="686.65997"
+   height="208.78"
    id="svg2"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="schematic.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="GPS.svg">
   <metadata
-     id="metadata394">
+     id="metadata444">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -34,28 +35,28 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="2560"
-     inkscape:window-height="1378"
-     id="namedview392"
+     inkscape:window-width="776"
+     inkscape:window-height="480"
+     id="namedview442"
      showgrid="false"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.92913386"
-     inkscape:cx="509.81277"
-     inkscape:cy="-139.51066"
+     inkscape:zoom="0.23228346"
+     inkscape:cx="375.078"
+     inkscape:cy="-190.9378"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <defs
      id="defs4" />
   <g
-     transform="matrix(0.27,0,0,0.27,-21.6,-150.66)"
+     transform="matrix(0.26,0,0,0.26,-20.8,-145.08)"
      id="g6">
     <rect
-       x="1900"
+       x="2020"
        y="640"
        width="240"
        height="720"
@@ -63,7 +64,7 @@
        id="rect8"
        style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
     <rect
-       x="1920"
+       x="2040"
        y="600"
        width="192"
        height="26"
@@ -74,14 +75,14 @@
        font-weight="bold"
        font-size="24px"
        id="g12"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
-         x="2016"
+         x="2136"
          y="621"
          id="text14">LoLin NodeMCU v3</text>
     </g>
     <rect
-       x="1858"
+       x="1978"
        y="718"
        width="4"
        height="4"
@@ -89,7 +90,7 @@
        id="rect16"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1862,720 36,0"
+       d="m 1982,720 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path18"
@@ -99,14 +100,14 @@
        font-weight="bold"
        font-size="24px"
        id="g20"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="1904"
+         x="2024"
          y="727.5"
          id="text22">3V</text>
     </g>
     <rect
-       x="1858"
+       x="1978"
        y="778"
        width="4"
        height="4"
@@ -114,7 +115,7 @@
        id="rect24"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1862,780 36,0"
+       d="m 1982,780 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path26"
@@ -124,14 +125,14 @@
        font-weight="bold"
        font-size="24px"
        id="g28"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="1904"
+         x="2024"
          y="787.5"
          id="text30">GND</text>
     </g>
     <rect
-       x="1858"
+       x="1978"
        y="858"
        width="4"
        height="4"
@@ -139,7 +140,7 @@
        id="rect32"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1862,860 36,0"
+       d="m 1982,860 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path34"
@@ -149,14 +150,14 @@
        font-weight="bold"
        font-size="24px"
        id="g36"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="1904"
+         x="2024"
          y="867.5"
          id="text38">D1</text>
     </g>
     <rect
-       x="1858"
+       x="1978"
        y="918"
        width="4"
        height="4"
@@ -164,7 +165,7 @@
        id="rect40"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1862,920 36,0"
+       d="m 1982,920 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path42"
@@ -174,14 +175,14 @@
        font-weight="bold"
        font-size="24px"
        id="g44"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="1904"
+         x="2024"
          y="927.5"
          id="text46">D2</text>
     </g>
     <rect
-       x="2178"
+       x="2298"
        y="718"
        width="4"
        height="4"
@@ -189,7 +190,7 @@
        id="rect48"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2142,720 36,0"
+       d="m 2262,720 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path50"
@@ -199,14 +200,14 @@
        font-weight="bold"
        font-size="24px"
        id="g52"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="2135"
+         x="2255"
          y="727.5"
          id="text54">3V</text>
     </g>
     <rect
-       x="2178"
+       x="2298"
        y="778"
        width="4"
        height="4"
@@ -214,7 +215,7 @@
        id="rect56"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2142,780 36,0"
+       d="m 2262,780 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path58"
@@ -224,14 +225,14 @@
        font-weight="bold"
        font-size="24px"
        id="g60"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="2135"
+         x="2255"
          y="787.5"
          id="text62">GND</text>
     </g>
     <rect
-       x="2178"
+       x="2298"
        y="858"
        width="4"
        height="4"
@@ -239,7 +240,7 @@
        id="rect64"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2142,860 36,0"
+       d="m 2262,860 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path66"
@@ -249,14 +250,14 @@
        font-weight="bold"
        font-size="24px"
        id="g68"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="2135"
+         x="2255"
          y="867.5"
          id="text70">D5</text>
     </g>
     <rect
-       x="2178"
+       x="2298"
        y="918"
        width="4"
        height="4"
@@ -264,7 +265,7 @@
        id="rect72"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2142,920 36,0"
+       d="m 2262,920 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path74"
@@ -274,14 +275,14 @@
        font-weight="bold"
        font-size="24px"
        id="g76"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="2135"
+         x="2255"
          y="927.5"
          id="text78">D6</text>
     </g>
     <rect
-       x="2178"
+       x="2298"
        y="978"
        width="4"
        height="4"
@@ -289,7 +290,7 @@
        id="rect80"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2142,980 36,0"
+       d="m 2262,980 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path82"
@@ -299,14 +300,14 @@
        font-weight="bold"
        font-size="24px"
        id="g84"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="2135"
+         x="2255"
          y="987.5"
          id="text86">D7</text>
     </g>
     <rect
-       x="2178"
+       x="2298"
        y="1038"
        width="4"
        height="4"
@@ -314,7 +315,7 @@
        id="rect88"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2142,1040 36,0"
+       d="m 2262,1040 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path90"
@@ -324,14 +325,14 @@
        font-weight="bold"
        font-size="24px"
        id="g92"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="2135"
+         x="2255"
          y="1047.5"
          id="text94">D8</text>
     </g>
     <rect
-       x="1858"
+       x="1978"
        y="1098"
        width="4"
        height="4"
@@ -339,7 +340,7 @@
        id="rect96"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1862,1100 36,0"
+       d="m 1982,1100 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path98"
@@ -349,14 +350,14 @@
        font-weight="bold"
        font-size="24px"
        id="g100"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="1904"
+         x="2024"
          y="1107.5"
          id="text102">D0</text>
     </g>
     <rect
-       x="1500"
+       x="1620"
        y="640"
        width="240"
        height="340"
@@ -364,7 +365,7 @@
        id="rect104"
        style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
     <rect
-       x="1520"
+       x="1640"
        y="600"
        width="134"
        height="26"
@@ -375,14 +376,14 @@
        font-weight="bold"
        font-size="24px"
        id="g108"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
-         x="1587"
+         x="1707"
          y="621"
          id="text110">ublox neo-6m</text>
     </g>
     <rect
-       x="1778"
+       x="1898"
        y="718"
        width="4"
        height="4"
@@ -390,7 +391,7 @@
        id="rect112"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1742,720 36,0"
+       d="m 1862,720 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path114"
@@ -400,14 +401,14 @@
        font-weight="bold"
        font-size="24px"
        id="g116"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="1735"
+         x="1855"
          y="727.5"
          id="text118">VCC</text>
     </g>
     <rect
-       x="1778"
+       x="1898"
        y="778"
        width="4"
        height="4"
@@ -415,7 +416,7 @@
        id="rect120"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1742,780 36,0"
+       d="m 1862,780 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path122"
@@ -425,14 +426,14 @@
        font-weight="bold"
        font-size="24px"
        id="g124"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="1735"
+         x="1855"
          y="787.5"
          id="text126">GND</text>
     </g>
     <rect
-       x="1778"
+       x="1898"
        y="858"
        width="4"
        height="4"
@@ -440,7 +441,7 @@
        id="rect128"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1742,860 36,0"
+       d="m 1862,860 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path130"
@@ -450,14 +451,14 @@
        font-weight="bold"
        font-size="24px"
        id="g132"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="1735"
+         x="1855"
          y="867.5"
          id="text134">TX</text>
     </g>
     <rect
-       x="1778"
+       x="1898"
        y="918"
        width="4"
        height="4"
@@ -465,7 +466,7 @@
        id="rect136"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1742,920 36,0"
+       d="m 1862,920 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path138"
@@ -475,42 +476,42 @@
        font-weight="bold"
        font-size="24px"
        id="g140"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="1735"
+         x="1855"
          y="927.5"
          id="text142">RX</text>
     </g>
     <path
-       d="m 1780,720 80,0"
+       d="m 1900,720 80,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path144"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 1780,780 80,0"
+       d="m 1900,780 80,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path146"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 1780,860 80,0"
+       d="m 1900,860 80,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path148"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 1780,920 80,0"
+       d="m 1900,920 80,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path150"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <rect
-       x="2360"
+       x="2480"
        y="640"
        width="240"
        height="460"
@@ -518,7 +519,7 @@
        id="rect152"
        style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
     <rect
-       x="2380"
+       x="2500"
        y="600"
        width="80"
        height="26"
@@ -529,14 +530,14 @@
        font-weight="bold"
        font-size="24px"
        id="g156"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
-         x="2420"
+         x="2540"
          y="621"
          id="text158">SD card</text>
     </g>
     <rect
-       x="2318"
+       x="2438"
        y="718"
        width="4"
        height="4"
@@ -544,7 +545,7 @@
        id="rect160"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2322,720 36,0"
+       d="m 2442,720 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path162"
@@ -554,14 +555,14 @@
        font-weight="bold"
        font-size="24px"
        id="g164"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="2364"
+         x="2484"
          y="727.5"
          id="text166">VCC</text>
     </g>
     <rect
-       x="2318"
+       x="2438"
        y="778"
        width="4"
        height="4"
@@ -569,7 +570,7 @@
        id="rect168"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2322,780 36,0"
+       d="m 2442,780 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path170"
@@ -579,14 +580,14 @@
        font-weight="bold"
        font-size="24px"
        id="g172"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="2364"
+         x="2484"
          y="787.5"
          id="text174">GND</text>
     </g>
     <rect
-       x="2318"
+       x="2438"
        y="858"
        width="4"
        height="4"
@@ -594,7 +595,7 @@
        id="rect176"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2322,860 36,0"
+       d="m 2442,860 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path178"
@@ -604,14 +605,14 @@
        font-weight="bold"
        font-size="24px"
        id="g180"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="2364"
+         x="2484"
          y="867.5"
          id="text182">SCLK</text>
     </g>
     <rect
-       x="2318"
+       x="2438"
        y="918"
        width="4"
        height="4"
@@ -619,7 +620,7 @@
        id="rect184"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2322,920 36,0"
+       d="m 2442,920 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path186"
@@ -629,14 +630,14 @@
        font-weight="bold"
        font-size="24px"
        id="g188"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="2364"
+         x="2484"
          y="927.5"
          id="text190">DO</text>
     </g>
     <rect
-       x="2318"
+       x="2438"
        y="978"
        width="4"
        height="4"
@@ -644,7 +645,7 @@
        id="rect192"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2322,980 36,0"
+       d="m 2442,980 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path194"
@@ -654,14 +655,14 @@
        font-weight="bold"
        font-size="24px"
        id="g196"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="2364"
+         x="2484"
          y="987.5"
          id="text198">DI</text>
     </g>
     <rect
-       x="2318"
+       x="2438"
        y="1038"
        width="4"
        height="4"
@@ -669,7 +670,7 @@
        id="rect200"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 2322,1040 36,0"
+       d="m 2442,1040 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path202"
@@ -679,56 +680,56 @@
        font-weight="bold"
        font-size="24px"
        id="g204"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="2364"
+         x="2484"
          y="1047.5"
          id="text206">CS</text>
     </g>
     <path
-       d="m 2180,720 140,0"
+       d="m 2300,720 140,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path208"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 2180,780 140,0"
+       d="m 2300,780 140,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path210"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 2180,860 140,0"
+       d="m 2300,860 140,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path212"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 2180,920 140,0"
+       d="m 2300,920 140,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path214"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 2180,980 140,0"
+       d="m 2300,980 140,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path216"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 2180,1040 140,0"
+       d="m 2300,1040 140,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path218"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <rect
-       x="1158"
+       x="1278"
        y="1038"
        width="4"
        height="4"
@@ -737,7 +738,7 @@
        id="rect220"
        style="fill:#000000;stroke:none" />
     <rect
-       x="1158"
+       x="1278"
        y="958"
        width="4"
        height="4"
@@ -746,7 +747,7 @@
        id="rect222"
        style="fill:#000000;stroke:none" />
     <rect
-       x="1418"
+       x="1538"
        y="998"
        width="4"
        height="4"
@@ -755,7 +756,7 @@
        id="rect224"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 1200.15,1100 0,-200 180,100 z"
+       d="m 1320.15,1100 0,-200 180,100 z"
        stroke-miterlimit="10"
        transform="matrix(1,0,0,-1,0,2020)"
        pointer-events="none"
@@ -763,7 +764,7 @@
        inkscape:connector-curvature="0"
        style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 1161.85,1040 36,0"
+       d="m 1281.85,1040 36,0"
        stroke-miterlimit="10"
        transform="matrix(1,0,0,-1,0,2020)"
        pointer-events="none"
@@ -771,7 +772,7 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
     <path
-       d="m 1162.15,960 36,0"
+       d="m 1282.15,960 36,0"
        stroke-miterlimit="10"
        transform="matrix(1,0,0,-1,0,2020)"
        pointer-events="none"
@@ -779,7 +780,7 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
     <path
-       d="m 1380.15,1000 38,0"
+       d="m 1500.15,1000 38,0"
        stroke-miterlimit="10"
        transform="matrix(1,0,0,-1,0,2020)"
        pointer-events="none"
@@ -787,7 +788,7 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
     <path
-       d="m 1216.09,1040 15.69,0"
+       d="m 1336.09,1040 15.69,0"
        stroke-miterlimit="10"
        transform="matrix(1,0,0,-1,0,2020)"
        pointer-events="none"
@@ -795,7 +796,7 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
     <path
-       d="m 1216.09,960 15.69,0"
+       d="m 1336.09,960 15.69,0"
        stroke-miterlimit="10"
        transform="matrix(1,0,0,-1,0,2020)"
        pointer-events="none"
@@ -803,7 +804,7 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
     <path
-       d="m 1223.94,952.16 0,15.68"
+       d="m 1343.94,952.16 0,15.68"
        stroke-miterlimit="10"
        transform="matrix(1,0,0,-1,0,2020)"
        pointer-events="none"
@@ -811,9 +812,9 @@
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
     <rect
-       x="1132"
-       y="1092"
-       width="30"
+       x="1380"
+       y="920"
+       width="74"
        height="28"
        pointer-events="none"
        id="rect240"
@@ -822,21 +823,21 @@
        font-weight="bold"
        font-size="24px"
        id="g242"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
-         x="1147"
-         y="1114"
-         id="text244">U4</text>
+         x="1417"
+         y="942"
+         id="text244">LM358</text>
     </g>
     <path
-       d="m 1420,1020 440,0 0,80"
+       d="m 1540,1020 440,0 0,80"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path246"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <rect
-       x="820"
+       x="940"
        y="760"
        width="120"
        height="120"
@@ -844,7 +845,7 @@
        id="rect248"
        style="fill:#efd3d2;stroke:#000000;stroke-width:2" />
     <rect
-       x="820"
+       x="940"
        y="734"
        width="108"
        height="26"
@@ -855,14 +856,14 @@
        font-weight="bold"
        font-size="24px"
        id="g252"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
-         x="874"
+         x="994"
          y="755"
          id="text254">12v to 3.3v</text>
     </g>
     <rect
-       x="778"
+       x="898"
        y="818"
        width="4"
        height="4"
@@ -870,7 +871,7 @@
        id="rect256"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 782,820 36,0"
+       d="m 902,820 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path258"
@@ -880,14 +881,14 @@
        font-weight="bold"
        font-size="24px"
        id="g260"
-       style="font-size:24px;font-weight:bold;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;fill:#000000">
       <text
-         x="824"
+         x="944"
          y="827.5"
          id="text262">IN</text>
     </g>
     <rect
-       x="978"
+       x="1098"
        y="818"
        width="4"
        height="4"
@@ -895,7 +896,7 @@
        id="rect264"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 942,820 36,0"
+       d="m 1062,820 36,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path266"
@@ -905,14 +906,14 @@
        font-weight="bold"
        font-size="24px"
        id="g268"
-       style="font-size:24px;font-weight:bold;text-anchor:end;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:end;fill:#000000">
       <text
-         x="935"
+         x="1055"
          y="827.5"
          id="text270">OUT</text>
     </g>
     <rect
-       x="878"
+       x="998"
        y="918"
        width="4"
        height="4"
@@ -920,7 +921,7 @@
        id="rect272"
        style="fill:#000000;stroke:none" />
     <path
-       d="m 880,882 0,36"
+       d="m 1000,882 0,36"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path274"
@@ -930,9 +931,9 @@
        font-weight="bold"
        font-size="24px"
        id="g276"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
-         x="879.5"
+         x="999.5"
          y="869"
          id="text278">GND</text>
     </g>
@@ -980,25 +981,19 @@
        font-size="18px"
        transform="matrix(-1,0,0,1,960,0)"
        id="g290"
-       style="font-size:18px;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-size:18px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
          x="457.12"
          y="850.59998"
          id="text292">1</text>
     </g>
-    <ellipse
+    <circle
        cx="490"
        cy="860"
-       rx="10"
-       ry="10"
        transform="matrix(-1,0,0,1,960,0)"
        pointer-events="none"
        id="ellipse294"
-       d="m 500,860 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       sodipodi:cx="490"
-       sodipodi:cy="860"
-       sodipodi:rx="10"
-       sodipodi:ry="10"
+       r="10"
        style="fill:none;stroke:#000000;stroke-width:4" />
     <path
        d="m 470,876 0,-32 40,0 0,5.46 0,-3.62"
@@ -1052,25 +1047,19 @@
        font-size="18px"
        transform="matrix(-1,0,0,1,960,0)"
        id="g308"
-       style="font-size:18px;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-size:18px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
          x="457.12"
          y="890.59998"
          id="text310">2</text>
     </g>
-    <ellipse
+    <circle
        cx="490"
        cy="900"
-       rx="10"
-       ry="10"
        transform="matrix(-1,0,0,1,960,0)"
        pointer-events="none"
        id="ellipse312"
-       d="m 500,900 c 0,5.52285 -4.47715,10 -10,10 -5.52285,0 -10,-4.47715 -10,-10 0,-5.52285 4.47715,-10 10,-10 5.52285,0 10,4.47715 10,10 z"
-       sodipodi:cx="490"
-       sodipodi:cy="900"
-       sodipodi:rx="10"
-       sodipodi:ry="10"
+       r="10"
        style="fill:none;stroke:#000000;stroke-width:4" />
     <path
        d="m 506,890 0,20"
@@ -1132,28 +1121,28 @@
        font-weight="bold"
        font-size="24px"
        id="g328"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
          x="462"
          y="822"
          id="text330">ST1</text>
     </g>
     <path
-       d="m 520,860 140,0 0,-40 120,0"
+       d="m 520,860 140,0 0,-40 240,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path332"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 520,900 0,300 360,0 0,-280"
+       d="m 520,900 0,300 480,0 0,-280"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path334"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
     <path
-       d="m 980,820 120,0 0,160 60,0"
+       d="m 1100,820 120,0 0,160 60,0"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path336"
@@ -1230,7 +1219,7 @@
        font-weight="bold"
        font-size="24px"
        id="g356"
-       style="font-size:24px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:'Arial,Helvetica'">
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
       <text
          x="627"
          y="1022"
@@ -1243,18 +1232,12 @@
        id="path360"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
-    <ellipse
+    <circle
        cx="660"
        cy="860"
-       rx="4"
-       ry="4"
        pointer-events="none"
        id="ellipse362"
-       d="m 664,860 c 0,2.20914 -1.79086,4 -4,4 -2.20914,0 -4,-1.79086 -4,-4 0,-2.20914 1.79086,-4 4,-4 2.20914,0 4,1.79086 4,4 z"
-       sodipodi:cx="660"
-       sodipodi:cy="860"
-       sodipodi:rx="4"
-       sodipodi:ry="4"
+       r="4"
        style="fill:#000000;stroke:#000000;stroke-width:4" />
     <path
        d="m 660,1120 0,80 0,-4"
@@ -1263,45 +1246,26 @@
        id="path364"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
-    <ellipse
+    <circle
        cx="660"
        cy="1200"
-       rx="4"
-       ry="4"
        pointer-events="none"
        id="ellipse366"
-       d="m 664,1200 c 0,2.2091 -1.79086,4 -4,4 -2.20914,0 -4,-1.7909 -4,-4 0,-2.2091 1.79086,-4 4,-4 2.20914,0 4,1.7909 4,4 z"
-       sodipodi:cx="660"
-       sodipodi:cy="1200"
-       sodipodi:rx="4"
-       sodipodi:ry="4"
+       r="4"
        style="fill:#000000;stroke:#000000;stroke-width:4" />
     <path
-       d="m 720,1060 440,0"
+       d="m 1100,820 0,-260 820,0 0,156"
        stroke-miterlimit="10"
        pointer-events="none"
        id="path368"
        inkscape:connector-curvature="0"
        style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
-    <path
-       d="m 980,820 0,-260 820,0 0,156"
-       stroke-miterlimit="10"
-       pointer-events="none"
-       id="path370"
-       inkscape:connector-curvature="0"
-       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
-    <ellipse
-       cx="1800"
+    <circle
+       cx="1920"
        cy="720"
-       rx="4"
-       ry="4"
        pointer-events="none"
-       id="ellipse372"
-       d="m 1804,720 c 0,2.20914 -1.7909,4 -4,4 -2.2091,0 -4,-1.79086 -4,-4 0,-2.20914 1.7909,-4 4,-4 2.2091,0 4,1.79086 4,4 z"
-       sodipodi:cx="1800"
-       sodipodi:cy="720"
-       sodipodi:rx="4"
-       sodipodi:ry="4"
+       id="ellipse370"
+       r="4"
        style="fill:#000000;stroke:#000000;stroke-width:4" />
     <rect
        x="80"
@@ -1311,16 +1275,16 @@
        fill="transparent"
        stroke="transparent"
        pointer-events="none"
-       id="rect374"
+       id="rect372"
        style="stroke-width:2" />
     <g
        transform="matrix(2,0,0,2,85,855)"
-       id="g376">
+       id="g374">
       <foreignObject
+         style="overflow:visible;"
          pointer-events="all"
          width="165"
-         height="26"
-         id="foreignObject378">
+         height="26">
         <xhtml:div
            style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 30px; max-width: 165px; width: 164.5px; white-space: normal; word-wrap: normal;">
           <xhtml:div
@@ -1343,16 +1307,16 @@
        fill="transparent"
        stroke="transparent"
        pointer-events="none"
-       id="rect380"
+       id="rect376"
        style="stroke-width:2" />
     <g
        transform="matrix(2,0,0,2,525,1235)"
-       id="g382">
+       id="g378">
       <foreignObject
+         style="overflow:visible;"
          pointer-events="all"
          width="165"
-         height="26"
-         id="foreignObject384">
+         height="26">
         <xhtml:div
            style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 30px; max-width: 165px; width: 164.5px; white-space: normal; word-wrap: normal;">
           <xhtml:div
@@ -1368,23 +1332,23 @@
       </foreignObject>
     </g>
     <rect
-       x="1380"
+       x="1520"
        y="1040"
        width="400"
        height="120"
        fill="transparent"
        stroke="transparent"
        pointer-events="none"
-       id="rect386"
+       id="rect380"
        style="stroke-width:2" />
     <g
-       transform="matrix(2,0,0,2,1385,1055)"
-       id="g388">
+       transform="matrix(2,0,0,2,1525,1055)"
+       id="g382">
       <foreignObject
+         style="overflow:visible;"
          pointer-events="all"
          width="195"
-         height="26"
-         id="foreignObject390">
+         height="26">
         <xhtml:div
            style="display: inline-block; font-size: 12px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; overflow: hidden; max-height: 50px; max-width: 195px; width: 194.5px; white-space: normal; word-wrap: normal;">
           <xhtml:div
@@ -1395,5 +1359,205 @@
         </xhtml:div>
       </foreignObject>
     </g>
+    <rect
+       x="818"
+       y="998"
+       width="4"
+       height="4"
+       transform="matrix(0,1,-1,0,1880,240)"
+       pointer-events="none"
+       id="rect384"
+       style="fill:#000000;stroke:none" />
+    <rect
+       x="818"
+       y="1118"
+       width="4"
+       height="4"
+       transform="matrix(0,1,-1,0,1880,240)"
+       pointer-events="none"
+       id="rect386"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 820,1002 0,20"
+       stroke-miterlimit="10"
+       transform="matrix(0,1,-1,0,1880,240)"
+       pointer-events="none"
+       id="path388"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 820,1098 0,20"
+       stroke-miterlimit="10"
+       transform="matrix(0,1,-1,0,1880,240)"
+       pointer-events="none"
+       id="path390"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 806,1024 c 26.78,-0.36 28,0 28,0 l 0,72 -28,0 z"
+       stroke-miterlimit="10"
+       transform="matrix(0,1,-1,0,1880,240)"
+       pointer-events="none"
+       id="path392"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10" />
+    <rect
+       x="852"
+       y="1014"
+       width="30"
+       height="28"
+       pointer-events="none"
+       id="rect394"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g396"
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="867"
+         y="1036"
+         id="text398">R2</text>
+    </g>
+    <rect
+       x="840"
+       y="988"
+       width="42"
+       height="28"
+       pointer-events="none"
+       id="rect400"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g402"
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="861"
+         y="1010"
+         id="text404">10K</text>
+    </g>
+    <path
+       d="m 760,1060 -40,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path406"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <rect
+       x="918"
+       y="1078"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect408"
+       style="fill:#000000;stroke:none" />
+    <rect
+       x="918"
+       y="1178"
+       width="4"
+       height="4"
+       pointer-events="none"
+       id="rect410"
+       style="fill:#000000;stroke:none" />
+    <path
+       d="m 898,1122 c 44,0 44,0 44,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path412"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="m 898,1138 c 44,0 44,0 44,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path414"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10" />
+    <path
+       d="m 920,1082 0,38"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path416"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <path
+       d="m 920,1140 0,38"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path418"
+       inkscape:connector-curvature="0"
+       style="fill:#000000;stroke:#000000;stroke-width:4;stroke-linecap:square;stroke-miterlimit:10" />
+    <rect
+       x="852"
+       y="1080"
+       width="30"
+       height="28"
+       pointer-events="none"
+       id="rect420"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g422"
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="867"
+         y="1102"
+         id="text424">C1</text>
+    </g>
+    <rect
+       x="824"
+       y="1132"
+       width="60"
+       height="28"
+       pointer-events="none"
+       id="rect426"
+       style="fill:#dae2f2;fill-opacity:0;stroke:none" />
+    <g
+       font-weight="bold"
+       font-size="24px"
+       id="g428"
+       style="font-weight:bold;font-size:24px;font-family:Arial, Helvetica;text-anchor:middle;fill:#000000">
+      <text
+         x="854"
+         y="1154"
+         id="text430">100nf</text>
+    </g>
+    <path
+       d="m 920,1180 0,16"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path432"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <circle
+       cx="920"
+       cy="1200"
+       pointer-events="none"
+       id="ellipse434"
+       r="4"
+       style="fill:#000000;stroke:#000000;stroke-width:4" />
+    <path
+       d="m 920,1080 0,-20 -40,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path436"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <path
+       d="m 1280,1060 -356,0"
+       stroke-miterlimit="10"
+       pointer-events="none"
+       id="path438"
+       inkscape:connector-curvature="0"
+       style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:10" />
+    <circle
+       cx="920"
+       cy="1060"
+       pointer-events="none"
+       id="ellipse440"
+       r="4"
+       style="fill:#000000;stroke:#000000;stroke-width:4" />
   </g>
 </svg>
