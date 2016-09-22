@@ -89,6 +89,8 @@ void loop() {
             String name = String(timestamp);
             
             logfile = SD.open(name.c_str(), FILE_WRITE);
+            logfile.print("date,time,latitude,longitude,speed\n");
+            
             locked = true;
           }
           if(locked && !nmea.location.isValid()){
