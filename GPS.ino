@@ -8,22 +8,41 @@ SoftwareSerial GPS=SoftwareSerial(D1, D2);
 
 TinyGPSPlus nmea;
 
+void blink(int times){
+  for(int i=0;i<times+1;i++){
+    digitalWrite(D4, LOW);
+    delay(70);
+    digitalWrite(D4, HIGH);
+    delay(70);
+  }
+}
+
 void setup() {
   Serial.begin(9600);
   Serial.println();
   Serial.println("Debugging started");
 
+  // Input for user button
+  pinMode(D0, INPUT_PULLUP);
 
+  // Softserial pins for GPS module
   pinMode(D1, INPUT);
   pinMode(D2, OUTPUT);
+  
+  // LED on the ESP-12e
+  pinMode(D4, OUTPUT);
+
+  // Start Softserial for GPS
   GPS.begin(9600);
   Serial.println("SoftSerial started");
 
   Serial.println("Starting SD");
   if(SD.begin(SS)){
     Serial.println("SD Init success");
+    blink(4);
   }else{
     Serial.println("SD Init failure");
+    blink(8);
   }
 
   File nameFile = SD.open("name.txt");
@@ -34,11 +53,11 @@ void setup() {
   nameFile.close();
   Serial.printf("Tracker: %s", trackerName);
 
-  Serial.println("Connecting to wifi network");
-  //connect_wifi();
 }
 
 void connect_wifi(){
+  Serial.println("Connecting to wifi network");
+
   // TODO: READ wifi data from SD
   WiFi.begin("BrixIT Computers", "");
 
@@ -54,21 +73,27 @@ void fmtDouble(double val, byte precision, char *buf, unsigned bufLen = 0xffff);
 unsigned fmtUnsigned(unsigned long val, char *buf, unsigned bufLen = 0xffff, byte width = 0);
 
 void loop() {
+  blink(4);
   Serial.println("Starting to parse nmea messages");
   bool locked = false;
   int lastSats = 0;
-  File logfile = SD.open("log.txt", FILE_WRITE);
-  logfile.seek(logfile.size()-1);
+  File logfile;
+  
   while(true){
     delay(10);
     while(GPS.available()){
       if(nmea.encode(GPS.read())){
           if(!locked && nmea.location.isValid()){
             Serial.println("Got GPS fix");
+            long timestamp=nmea.date.value()*100000000+nmea.time.value();
+            String name = String(timestamp);
+            
+            logfile = SD.open(name.c_str(), FILE_WRITE);
             locked = true;
           }
           if(locked && !nmea.location.isValid()){
             Serial.println("Lost GPS fix");
+            logfile.close();
             locked = false;
           }
         
@@ -90,8 +115,8 @@ void loop() {
       }
     }
   }
-  logfile.close();
 }
+
 
 //
 // Produce a formatted string in a buffer corresponding to the value provided.
