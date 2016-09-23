@@ -4,7 +4,7 @@ Create gps track files for car rides and upload data to a server through WiFi.
 
 ## Hardware
 
-* esp8266 mode (esp 12-e) on a nodemcu board.
+* esp8266 module (esp 12-e) on a nodemcu board.
 * ublox neo-6m gps module
 * SD card breakout
 
