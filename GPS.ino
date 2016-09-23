@@ -17,6 +17,7 @@ void blink(int times){
   }
 }
 
+char secret[33];
 
 void setup() {
   Serial.begin(9600);
@@ -24,7 +25,7 @@ void setup() {
   Serial.println("Debugging started");
 
   // Input for user button
-  pinMode(D0, INPUT_PULLUP);
+  pinMode(D3, INPUT_PULLUP);
 
   // Softserial pins for GPS module
   pinMode(D1, INPUT);
@@ -44,18 +45,17 @@ void setup() {
   }else{
     Serial.println("SD Init failure");
     blink(8);
+    ESP.deepSleep(0);
   }
 
-  File nameFile = SD.open("name.txt");
-  uint32_t nameSize = nameFile.size();
-  char trackerName[nameSize+1];
-  trackerName[nameSize] = '\0';
-  nameFile.read(trackerName, nameSize);
-  nameFile.close();
-  Serial.printf("Tracker: %s", trackerName);
+  File secretFile = SD.open("secret.txt");
+  secret[32]= '\0';
+  secretFile.read(secret, 32);
+  secretFile.close();
+  Serial.printf("Secret: %s\n", secret);
 }
 
-void connect_wifi(){
+bool connect_wifi(){
   Serial.println("Connecting to wifi network");
   WiFi.mode(WIFI_STA);
   WiFi.disconnect();
@@ -105,7 +105,7 @@ void connect_wifi(){
   }
   
   if(matchFound){
-    timeout = 2*30;
+    int timeout = 2*30;
     while (WiFi.status() != WL_CONNECTED)
     {
       delay(500);
@@ -121,7 +121,77 @@ void connect_wifi(){
     Serial.println("No network available");
   }
 
-  return matchFound();
+  return matchFound;
+}
+
+void queueFile(const char* name){
+  Serial.printf("Queueing %s\n", name);
+  File queue = SD.open("queue.txt", FILE_WRITE);
+  //queue.seek(queue.size());
+  queue.printf("%s\n", name);
+  queue.flush();
+  queue.close();
+}
+
+void uploadTrack(char* name){
+  File log = SD.open(name);
+  WiFiClient client;
+  int tracker = ESP.getChipId();
+  String trackerId = String(tracker);
+  Serial.printf("Uploading %s\n", name);
+  if(client.connect("tracker.brixit.nl", 80)){
+    Serial.println("Sending headers");
+    String length = String(log.size());
+    String headers = String("POST /upload.php HTTP/1.0\r\n")+
+      "Host: tracker.brixit.nl\r\n" +
+      "Connection: close\r\n" + 
+      "Content-Type: text/csv\r\n" + 
+      "Content-Length: " + length + "\r\n" +
+      "X-Tracker: " + trackerId + "\r\n" +
+      "X-Secret: " + secret + "\r\n" + 
+      "X-Track: " + name + "\r\n" +
+      "\r\n";
+    client.print(headers);
+    Serial.print(headers);
+    Serial.println("Sending data");
+
+    char buffer[512];
+    while(true){
+      int bytes = log.read(buffer,512);
+      if(bytes < 1){
+        break;
+      }
+      client.write_P(buffer, bytes);
+      delay(1);
+    }
+    Serial.println("Upload done");
+    client.stop();
+  }
+
+  
+}
+
+void uploadQueue(){
+  File queue = SD.open("queue.txt");
+  char filename[17];
+  char charIndex = 0;
+  Serial.println("Starting upload queue");
+  while(true){
+    int fileChar = queue.read();
+    if(fileChar < 0){
+      Serial.println("Reached EOF");
+      break;
+    }
+    if(fileChar == '\n'){
+      filename[charIndex] = (char)0;
+      charIndex = 0;
+      uploadTrack(filename);
+    }else{
+      filename[charIndex++]=(char)fileChar;
+    }
+  }
+  queue.close();
+  SD.remove("queue.txt");
 }
 
 void fmtDouble(double val, byte precision, char *buf, unsigned bufLen = 0xffff);
@@ -133,15 +203,22 @@ void loop() {
   bool locked = false;
   int lastSats = 0;
   File logfile;
+  String name;
+
+  bool driving = true;
   
-  while(true){
+  while(driving){
     delay(10);
     while(GPS.available()){
+
+      if(!digitalRead(D3)){
+        driving=false;
+      }
+      
       if(nmea.encode(GPS.read())){
           if(!locked && nmea.location.isValid()){
             Serial.println("Got GPS fix");
-            long timestamp=nmea.date.value()*100000000+nmea.time.value();
-            String name = String(timestamp);
+            name = String(nmea.time.value());
             
             logfile = SD.open(name.c_str(), FILE_WRITE);
             logfile.print("date,time,latitude,longitude,speed\n");
@@ -151,6 +228,7 @@ void loop() {
           if(locked && !nmea.location.isValid()){
             Serial.println("Lost GPS fix");
             logfile.close();
+            queueFile(name.c_str());
             locked = false;
           }
         
@@ -176,9 +254,9 @@ void loop() {
   blink(2);
   Serial.println("Track done");
   if(connect_wifi()){
-    // TODO: Upload tracks
+    uploadQueue();
   }
-  
+  ESP.deepSleep(0);
 }
 
 
