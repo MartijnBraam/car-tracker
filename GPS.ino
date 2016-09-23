@@ -17,6 +17,7 @@ void blink(int times){
   }
 }
 
+
 void setup() {
   Serial.begin(9600);
   Serial.println();
@@ -52,21 +53,75 @@ void setup() {
   nameFile.read(trackerName, nameSize);
   nameFile.close();
   Serial.printf("Tracker: %s", trackerName);
-
 }
 
 void connect_wifi(){
   Serial.println("Connecting to wifi network");
+  WiFi.mode(WIFI_STA);
+  WiFi.disconnect();
 
-  // TODO: READ wifi data from SD
-  WiFi.begin("BrixIT Computers", "");
+  Serial.println("Scanning nearby networks");
+  int scanCount = WiFi.scanNetworks();
 
-  while (WiFi.status() != WL_CONNECTED)
-  {
-    delay(500);
-    Serial.print(".");
+  Serial.println("Loading possible networks");
+  File wifiFile = SD.open("wifi.txt");
+  char fileSSID[40];
+  char fileKEY[40];
+  int charIndex = 0;
+  bool inSSID = true;
+  bool matchFound = false;
+  while(true){
+    int fileChar = wifiFile.read();
+    if(fileChar < 0){
+      break;
+    }
+    if(fileChar == '\n'){
+      fileKEY[charIndex]=(char)0;
+      charIndex = 0;
+      inSSID = true;
+
+      for(int i=0;i<scanCount;i++){
+        Serial.printf("Compare against %s\n", WiFi.SSID(i).c_str());
+        if(strcmp(fileSSID, WiFi.SSID(i).c_str())==0){
+          Serial.printf("Found matching network: %s\n", fileSSID);
+          matchFound = true;
+          WiFi.begin(fileSSID, fileKEY);
+          break;
+        }
+      }
+      
+    }else if(fileChar == ':'){
+      inSSID = false;
+      fileSSID[charIndex]=(char)0;
+      Serial.printf("Possible SSID: %s\n", fileSSID);
+      charIndex = 0;
+    }else{
+      if(inSSID){
+        fileSSID[charIndex++]=(char)fileChar;
+      }else{
+        fileKEY[charIndex++]=(char)fileChar;
+      }
+    }
   }
-  Serial.println(WiFi.localIP());
+  
+  if(matchFound){
+    timeout = 2*30;
+    while (WiFi.status() != WL_CONNECTED)
+    {
+      delay(500);
+      Serial.print(".");
+      if(--timeout == 0){
+        Serial.println("Couldn't connect to the SSID");
+        return false;
+      }
+    }
+    Serial.println(WiFi.localIP());
+    
+  }else{
+    Serial.println("No network available");
+  }
+
+  return matchFound();
 }
 
 void fmtDouble(double val, byte precision, char *buf, unsigned bufLen = 0xffff);
@@ -117,6 +172,13 @@ void loop() {
       }
     }
   }
+
+  blink(2);
+  Serial.println("Track done");
+  if(connect_wifi()){
+    // TODO: Upload tracks
+  }
+  
 }
 
 
