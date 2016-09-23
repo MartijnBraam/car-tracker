@@ -209,10 +209,11 @@ void loop() {
   
   while(driving){
     delay(10);
-    while(GPS.available()){
+    while(GPS.available() && driving){
 
       if(!digitalRead(D3)){
         driving=false;
+        queueFile(name.c_str());
       }
       
       if(nmea.encode(GPS.read())){
@@ -241,6 +242,9 @@ void loop() {
             fmtDouble(nmea.speed.kmph(),2, speed);
             logfile.printf("%d,%d,%s,%s,%s\n", nmea.date.value(), nmea.time.value(), lat, lng, speed);
             logfile.flush();
+            if(!driving){
+              logfile.close();
+            }
           }else{
             if(nmea.satellites.value() > lastSats){
               lastSats = nmea.satellites.value();
