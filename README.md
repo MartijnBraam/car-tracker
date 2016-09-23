@@ -18,4 +18,3 @@ Create gps track files for car rides and upload data to a server through WiFi.
 
 * Create 12v to 3.3v electronics and add a voltage trigger to wake up mcu
 * Implement GPS-A with offline assist data downloaded when in WiFi range
-* Support for multiple WiFi credentials
