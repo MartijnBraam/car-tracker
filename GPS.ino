@@ -4,59 +4,14 @@
 #include <SD.h>
 #include <SPI.h>
 
-SoftwareSerial GPS=SoftwareSerial(D1, D2);
+#include "util.h";
+#include "ublox.h";
 
+SoftwareSerial GPS=SoftwareSerial(D1, D2);
+Ublox ublox=Ublox(&GPS);
 TinyGPSPlus nmea;
 
-void blink(int times){
-  for(int i=0;i<times+1;i++){
-    digitalWrite(D4, LOW);
-    delay(70);
-    digitalWrite(D4, HIGH);
-    delay(70);
-  }
-}
-
 char secret[33];
-
-void sendUBX(byte *UBXmsg, byte msgLength) {
-  for(int i = 0; i < msgLength; i++) {
-    GPS.write(UBXmsg[i]);
-    GPS.flush();
-  }
-  GPS.println();
-  GPS.flush();
-}
-
-void setupGPS(){
-  byte powerSettings[] = {
-    0xB5, 0x62, 0x06, 0x3B, 0x2C, 0x00, 0x01, 0x06, 0x00, 0x00, 0x00, 0x90, 0x42, 0x01, 0xE8, 0x03, 0x00, 0x00,
-    0x10, 0x27, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x2C, 0x01, 0x00, 0x00, 0x4F, 0xC1,
-    0x03, 0x00, 0x87, 0x02, 0x00, 0x00, 0xFF, 0x00, 0x00, 0x00, 0x64, 0x40, 0x01, 0x00, 0x8F, 0xDF
-  };
-  sendUBX(powerSettings, sizeof(powerSettings));
-  byte navSettings[] = {
-    0xB5, 0x62, 0x06, 0x24, 0x24, 0x00, 0xFF, 0xFF, 0x04, 0x03, 0x00, 0x00, 0x00, 0x00, 0x10, 0x27, 0x00, 0x00, 
-    0x05, 0x00, 0xFA, 0x00, 0xFA, 0x00, 0x64, 0x00, 0x2C, 0x01, 0x00, 0x00, 0x00, 0x10, 0x27, 0x00, 0x00, 0x00,
-    0x00, 0x00, 0x00, 0x00, 0x4B, 0x97
-  };
-  sendUBX(navSettings, sizeof(navSettings));
-  byte rateSettings[] = {0xB5, 0x62, 0x06, 0x08, 0x06, 0x00, 0xF4, 0x01, 0x01, 0x00, 0x01, 0x00, 0x0B, 0x77};
-  sendUBX(rateSettings, sizeof(rateSettings));
-  delay(100);
-  GPS.flush();
-}
-
-void sleepyGPS(){
-  byte powerSettings[] = {
-    0xB5, 0x62, 0x06, 0x3B, 0x2C, 0x00, 0x01, 0x06, 0x00, 0x00, 0x00, 0x90, 0x40, 0x01, 0x80, 0xEE, 0x36, 0x00,
-    0x10, 0x27, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0x00, 0x00, 0x00, 0x2C, 0x01, 0x00, 0x00, 0x4F, 0xC1,
-    0x03, 0x00, 0x87, 0x02, 0x00, 0x00, 0xFF, 0x00, 0x00, 0x00, 0x64, 0x40, 0x01, 0x00, 0x8F, 0xDF
-  };
-  sendUBX(powerSettings, sizeof(powerSettings));
-  delay(100);
-  GPS.flush();
-}
 
 void setup() {
   Serial.begin(9600);
@@ -78,7 +33,7 @@ void setup() {
   GPS.enableRx(true);
   Serial.println("SoftSerial started");
   Serial.println("Sending gps settings");
-  setupGPS();
+  ublox.setupGPS();
   Serial.println("Setttings done");
 
   // Check if button is pressed on boot
@@ -254,17 +209,6 @@ void uploadQueue(){
   SD.remove("system/queue.txt");
 }
 
-unsigned int calculateChecksum(char* input){
-  unsigned int result = 0;
-  for(int i=0;i<strlen(input);++i){
-    result^=input[i];
-  }
-  return result;
-}
-
-void fmtDouble(double val, byte precision, char *buf, unsigned bufLen = 0xffff);
-unsigned fmtUnsigned(unsigned long val, char *buf, unsigned bufLen = 0xffff, byte width = 0);
-
 void loop() {
   blink(4);
   Serial.println("Starting to parse nmea messages");
@@ -344,114 +288,7 @@ void loop() {
   if(connect_wifi()){
     uploadQueue();
   }
-  sleepyGPS();
+  ublox.sleepyGPS();
   digitalWrite(D4, HIGH);
   ESP.deepSleep(0);
 }
-
-
-//
-// Produce a formatted string in a buffer corresponding to the value provided.
-// If the 'width' parameter is non-zero, the value will be padded with leading
-// zeroes to achieve the specified width.  The number of characters added to
-// the buffer (not including the null termination) is returned.
-//
-unsigned
-fmtUnsigned(unsigned long val, char *buf, unsigned bufLen, byte width)
-{
- if (!buf || !bufLen)
-   return(0);
-
- // produce the digit string (backwards in the digit buffer)
- char dbuf[10];
- unsigned idx = 0;
- while (idx < sizeof(dbuf))
- {
-   dbuf[idx++] = (val % 10) + '0';
-   if ((val /= 10) == 0)
-     break;
- }
-
- // copy the optional leading zeroes and digits to the target buffer
- unsigned len = 0;
- byte padding = (width > idx) ? width - idx : 0;
- char c = '0';
- while ((--bufLen > 0) && (idx || padding))
- {
-   if (padding)
-     padding--;
-   else
-     c = dbuf[--idx];
-   *buf++ = c;
-   len++;
- }
-
- // add the null termination
- *buf = '\0';
- return(len);
-}
-
-//
-// Format a floating point value with number of decimal places.
-// The 'precision' parameter is a number from 0 to 6 indicating the desired decimal places.
-// The 'buf' parameter points to a buffer to receive the formatted string.  This must be
-// sufficiently large to contain the resulting string.  The buffer's length may be
-// optionally specified.  If it is given, the maximum length of the generated string
-// will be one less than the specified value.
-//
-// example: fmtDouble(3.1415, 2, buf); // produces 3.14 (two decimal places)
-//
-void
-fmtDouble(double val, byte precision, char *buf, unsigned bufLen)
-{
- if (!buf || !bufLen)
-   return;
-
- // limit the precision to the maximum allowed value
- const byte maxPrecision = 6;
- if (precision > maxPrecision)
-   precision = maxPrecision;
-
- if (--bufLen > 0)
- {
-   // check for a negative value
-   if (val < 0.0)
-   {
-     val = -val;
-     *buf = '-';
-     bufLen--;
-   }
-
-   // compute the rounding factor and fractional multiplier
-   double roundingFactor = 0.5;
-   unsigned long mult = 1;
-   for (byte i = 0; i < precision; i++)
-   {
-     roundingFactor /= 10.0;
-     mult *= 10;
-   }
-
-   if (bufLen > 0)
-   {
-     // apply the rounding factor
-     val += roundingFactor;
-
-     // add the integral portion to the buffer
-     unsigned len = fmtUnsigned((unsigned long)val, buf, bufLen);
-     buf += len;
-     bufLen -= len;
-   }
-
-   // handle the fractional portion
-   if ((precision > 0) && (bufLen > 0))
-   {
-     *buf++ = '.';
-     if (--bufLen > 0)
-       buf += fmtUnsigned((unsigned long)((val - (unsigned long)val) * mult), buf, bufLen, precision);
-   }
- }
-
- // null-terminate the string
- *buf = '\0';
-}
-
