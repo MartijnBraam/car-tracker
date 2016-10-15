@@ -104,11 +104,13 @@ void setup() {
     ESP.deepSleep(0);
   }
 
-  File secretFile = SD.open("secret.txt");
+  File secretFile = SD.open("SYSTEM/SECRET.TXT");
   secret[32]= '\0';
   secretFile.read(secret, 32);
   secretFile.close();
   Serial.printf("Secret: %s\n", secret);
+
+  SD.mkdir("system");
 }
 
 bool connect_wifi(){
@@ -120,7 +122,7 @@ bool connect_wifi(){
   int scanCount = WiFi.scanNetworks();
 
   Serial.println("Loading possible networks");
-  File wifiFile = SD.open("wifi.txt");
+  File wifiFile = SD.open("SYSTEM/WIFI.TXT");
   char fileSSID[40];
   char fileKEY[40];
   int charIndex = 0;
@@ -137,9 +139,7 @@ bool connect_wifi(){
       inSSID = true;
 
       for(int i=0;i<scanCount;i++){
-        Serial.printf("Compare against %s\n", WiFi.SSID(i).c_str());
         if(strcmp(fileSSID, WiFi.SSID(i).c_str())==0){
-          Serial.printf("Found matching network: %s\n", fileSSID);
           matchFound = true;
           WiFi.begin(fileSSID, fileKEY);
           break;
@@ -149,7 +149,6 @@ bool connect_wifi(){
     }else if(fileChar == ':'){
       inSSID = false;
       fileSSID[charIndex]=(char)0;
-      Serial.printf("Possible SSID: %s\n", fileSSID);
       charIndex = 0;
     }else{
       if(inSSID){
@@ -182,8 +181,11 @@ bool connect_wifi(){
 
 void queueFile(const char* name){
   Serial.printf("Queueing %s\n", name);
-  File queue = SD.open("queue.txt", FILE_WRITE);
-  //queue.seek(queue.size());
+  File queue = SD.open("system/queue.txt", FILE_WRITE);
+  if(!queue){
+    Serial.printf("Error opening queue file");
+  }
+  queue.seek(queue.size());
   queue.printf("%s\n", name);
   queue.flush();
   queue.close();
@@ -208,17 +210,16 @@ void uploadTrack(char* name){
       "X-Track: " + name + "\r\n" +
       "\r\n";
     client.print(headers);
-    Serial.print(headers);
     Serial.println("Sending data");
 
-    char buffer[512];
+    char buffer[1470];
     while(true){
-      int bytes = log.read(buffer,512);
+      int bytes = log.read(buffer,1470);
       if(bytes < 1){
         break;
       }
       client.write_P(buffer, bytes);
-      delay(1);
+      delay(0);
     }
     Serial.println("Upload done");
     client.stop();
@@ -228,7 +229,10 @@ void uploadTrack(char* name){
 }
 
 void uploadQueue(){
-  File queue = SD.open("queue.txt");
+  digitalWrite(D4, HIGH);
+  delay(100);
+  digitalWrite(D4, LOW);
+  File queue = SD.open("system/queue.txt");
   char filename[17];
   char charIndex = 0;
   Serial.println("Starting upload queue");
@@ -247,7 +251,15 @@ void uploadQueue(){
     }
   }
   queue.close();
-  SD.remove("queue.txt");
+  SD.remove("system/queue.txt");
+}
+
+unsigned int calculateChecksum(char* input){
+  unsigned int result = 0;
+  for(int i=0;i<strlen(input);++i){
+    result^=input[i];
+  }
+  return result;
 }
 
 void fmtDouble(double val, byte precision, char *buf, unsigned bufLen = 0xffff);
@@ -259,9 +271,9 @@ void loop() {
   bool locked = false;
   int lastSats = 0;
   File logfile;
-  String name;
 
   bool driving = true;
+  char name[22] = {0};
   
   while(driving){
     delay(10);
@@ -269,39 +281,53 @@ void loop() {
 
       if(!digitalRead(D3)){
         driving=false;
-        queueFile(name.c_str());
       }
       int gpsChar = GPS.read();
       //Serial.write(gpsChar);
       if(nmea.encode(gpsChar) && nmea.location.isUpdated()){
-          if(!locked && nmea.location.isValid()){
+          if(!locked && nmea.location.isValid() && nmea.date.isValid()){
             Serial.println("Got GPS fix");
-            name = String(nmea.time.value());
+            char directory[9]={0};
+            sprintf(directory, "%d%d%d", nmea.date.year(), nmea.date.month(), nmea.date.day());
+            sprintf(name, "%s/%d.log", directory, nmea.time.value());
             
-            logfile = SD.open(name.c_str(), FILE_WRITE);
-            logfile.print("date,time,latitude,longitude,speed\n");
+            queueFile(name);
+            Serial.printf("Creating directory %s\n", directory);
+            SD.mkdir(directory);
+            logfile = SD.open(name, FILE_WRITE);
+      	    if(!logfile){
+              Serial.println("Error creating logfile");
+      	    }else{
+              Serial.printf("Logging to %s\n", name);
+      	    }
+            logfile.print("date,time,latitude,longitude,speed,checksum\n");
             
             locked = true;
           }
           if(locked && !nmea.location.isValid()){
             Serial.println("Lost GPS fix");
             logfile.close();
-            queueFile(name.c_str());
             locked = false;
           }
         
           if(locked){
+            digitalWrite(D4, LOW);
             char lat[20];
             char lng[20];
             char speed[20];
             fmtDouble(nmea.location.lat(), 10, lat);
             fmtDouble(nmea.location.lng(), 10, lng);
             fmtDouble(nmea.speed.kmph(),2, speed);
-            logfile.printf("%d,%d,%s,%s,%s\n", nmea.date.value(), nmea.time.value(), lat, lng, speed);
+            char logline[100] = {0};
+            sprintf(logline, "%d,%d,%s,%s,%s", nmea.date.value(), nmea.time.value(), lat, lng, speed);
+            int checksum = calculateChecksum(logline);
+            logfile.printf("%s,%d\n", logline, checksum);
             logfile.flush();
             if(!driving){
               logfile.close();
             }
+                digitalWrite(D4, HIGH);
+
           }else{
             if(nmea.satellites.value() > lastSats){
               lastSats = nmea.satellites.value();
@@ -313,13 +339,13 @@ void loop() {
   }
   GPS.enableRx(false);
 
-  blink(1);
   Serial.println("Track done");
+  digitalWrite(D4, LOW);
   if(connect_wifi()){
     uploadQueue();
   }
-  blink(1);
   sleepyGPS();
+  digitalWrite(D4, HIGH);
   ESP.deepSleep(0);
 }
 
